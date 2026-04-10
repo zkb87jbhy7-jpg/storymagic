@@ -6,10 +6,16 @@ All configuration is loaded from environment variables with .env file fallback.
 """
 
 from functools import lru_cache
+from pathlib import Path
 from typing import Annotated
 
 from pydantic import Field, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
+
+# Resolve project root (3 levels up from this file: config.py -> app -> api -> STORY)
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent.parent
+_ENV_FILE = _PROJECT_ROOT / ".env.local"
+_ENV_FILE_FALLBACK = _PROJECT_ROOT / ".env"
 
 
 class Settings(BaseSettings):
@@ -20,7 +26,7 @@ class Settings(BaseSettings):
     """
 
     model_config = SettingsConfigDict(
-        env_file=".env",
+        env_file=(str(_ENV_FILE), str(_ENV_FILE_FALLBACK)),
         env_file_encoding="utf-8",
         case_sensitive=False,
         extra="ignore",
@@ -139,21 +145,15 @@ class Settings(BaseSettings):
         default="http://localhost:8000",
         description="Public-facing API URL used by the frontend",
     )
-    api_cors_origins: Annotated[
-        list[str],
-        Field(
-            default=["http://localhost:3000"],
-            description="Allowed CORS origins (comma-separated in env var)",
-        ),
-    ]
+    api_cors_origins: str = Field(
+        default="http://localhost:3000",
+        description="Allowed CORS origins (comma-separated)",
+    )
 
-    @field_validator("api_cors_origins", mode="before")
-    @classmethod
-    def parse_cors_origins(cls, v: str | list[str]) -> list[str]:
-        """Parse comma-separated CORS origins string into a list."""
-        if isinstance(v, str):
-            return [origin.strip() for origin in v.split(",") if origin.strip()]
-        return v
+    @property
+    def cors_origins_list(self) -> list[str]:
+        """Parse comma-separated CORS origins into a list."""
+        return [o.strip() for o in self.api_cors_origins.split(",") if o.strip()]
 
 
 @lru_cache(maxsize=1)

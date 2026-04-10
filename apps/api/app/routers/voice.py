@@ -128,10 +128,10 @@ async def generate_voice(
     summary="Upload recording for voice cloning",
 )
 async def clone_voice(
-    name: str,
-    language: str = "en",
-    current_user: Annotated[dict[str, Any], Depends(get_current_user)] = Depends(),
+    current_user: Annotated[dict[str, Any], Depends(get_current_user)],
     recording: UploadFile = File(..., description="Audio recording for voice cloning"),
+    name: str = "My Voice",
+    language: str = "en",
 ) -> VoiceCloneResponse:
     """Upload a recording for voice cloning.
 
@@ -197,10 +197,10 @@ async def list_presets(
     summary="Save family member voice recording",
 )
 async def record_family_voice(
-    name: str,
-    relationship: str,
-    current_user: Annotated[dict[str, Any], Depends(get_current_user)] = Depends(),
+    current_user: Annotated[dict[str, Any], Depends(get_current_user)],
     recording: UploadFile = File(..., description="Family member voice recording"),
+    name: str = "Family Voice",
+    relationship: str = "parent",
 ) -> FamilyVoiceResponse:
     """Save a family member voice recording.
 
