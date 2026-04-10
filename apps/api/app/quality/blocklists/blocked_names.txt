@@ -1,0 +1,45 @@
+# StoryMagic Blocked Names — Public Figures' Children
+# Spec ref: Ch6.1 — Blocklist of public figures' children names
+# These names should not appear as character names to avoid association
+# with real public figures' families. One name per line.
+
+# ── Political figures' children ────────────────────────────────────────
+Sasha Obama
+Malia Obama
+Barron Trump
+Ivanka Trump
+Tiffany Trump
+Charlotte Clinton
+Aidan Clinton
+Blue Ivy Carter
+Prince George
+Princess Charlotte
+Prince Louis
+Prince Archie
+Princess Lilibet
+North West
+Saint West
+Chicago West
+Psalm West
+Apple Martin
+Moses Martin
+
+# ── Celebrity children (commonly known) ────────────────────────────────
+Shiloh Jolie-Pitt
+Knox Jolie-Pitt
+Vivienne Jolie-Pitt
+Zahara Jolie-Pitt
+Maddox Jolie-Pitt
+Pax Jolie-Pitt
+Suri Cruise
+Harper Beckham
+Romeo Beckham
+Cruz Beckham
+Brooklyn Beckham
+Stormi Webster
+True Thompson
+
+# ── Israeli public figures' children ───────────────────────────────────
+Yair Netanyahu
+Avner Netanyahu
+Noa Rothman

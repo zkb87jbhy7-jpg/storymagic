@@ -14,6 +14,8 @@ from fastapi import APIRouter, Depends
 from sqlalchemy import text
 from sqlalchemy.ext.asyncio import AsyncSession
 
+from app.dependencies import get_db
+
 router = APIRouter(prefix="/health", tags=["health"])
 
 
@@ -30,7 +32,7 @@ async def health_check() -> dict[str, Any]:
 
 @router.get("/deep")
 async def deep_health_check(
-    db: AsyncSession = Depends(),
+    db: AsyncSession = Depends(get_db),
 ) -> dict[str, Any]:
     """Deep health check — verifies database, Redis, and external services."""
     checks: dict[str, Any] = {}

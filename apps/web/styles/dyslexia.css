@@ -1,0 +1,71 @@
+/* ==========================================================================
+   Dyslexia-friendly Mode — StoryMagic
+   Applied via .dyslexia-mode class on a parent element (e.g., <html> or <body>).
+   Based on research-backed guidelines for dyslexia readability.
+   ========================================================================== */
+
+.dyslexia-mode {
+  font-family: 'OpenDyslexic', sans-serif;
+  line-height: 2.0;
+  letter-spacing: 0.05em;
+  word-spacing: 0.16em;
+  background-color: #fdf6e3; /* Warm cream — reduces visual stress */
+  color: #3e2723; /* Dark brown — softer than pure black */
+}
+
+/* Remove italic text — italics are difficult for dyslexic readers */
+.dyslexia-mode em,
+.dyslexia-mode i,
+.dyslexia-mode cite,
+.dyslexia-mode dfn,
+.dyslexia-mode var {
+  font-style: normal;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+/* Prevent justified text — uneven spacing hurts readability */
+.dyslexia-mode p,
+.dyslexia-mode li,
+.dyslexia-mode span,
+.dyslexia-mode div,
+.dyslexia-mode td,
+.dyslexia-mode th,
+.dyslexia-mode blockquote {
+  text-align: start;
+}
+
+/* Limit line length to approximately 10 words (~50ch) */
+.dyslexia-mode p,
+.dyslexia-mode li,
+.dyslexia-mode blockquote {
+  max-inline-size: 50ch;
+}
+
+/* Increase paragraph spacing for better scanning */
+.dyslexia-mode p + p {
+  margin-block-start: 1.5em;
+}
+
+/* Headings keep OpenDyslexic but with tighter line-height */
+.dyslexia-mode h1,
+.dyslexia-mode h2,
+.dyslexia-mode h3,
+.dyslexia-mode h4,
+.dyslexia-mode h5,
+.dyslexia-mode h6 {
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}
+
+/* Links should have clear underline in dyslexia mode */
+.dyslexia-mode a {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+/* Dark mode override for dyslexia (inverted cream/brown) */
+.dark .dyslexia-mode {
+  background-color: #3e2723;
+  color: #fdf6e3;
+}

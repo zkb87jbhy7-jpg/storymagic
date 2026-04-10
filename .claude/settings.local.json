@@ -8,7 +8,21 @@
       "Bash(pnpm install:*)",
       "Bash(pnpm approve-builds:*)",
       "Bash(pnpm turbo:*)",
-      "Bash(npx tsc:*)"
+      "Bash(npx tsc:*)",
+      "Bash(docker-compose up:*)",
+      "Bash(git -C \"C:/Users/orit.braunsht/0appDEV/STORY\" status --short)",
+      "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('C:/Users/orit.braunsht/0appDEV/STORY/apps/web/i18n/messages/en.json','utf8'\\)\\); console.log\\('en.json: valid'\\)\")",
+      "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('C:/Users/orit.braunsht/0appDEV/STORY/apps/web/i18n/messages/he.json','utf8'\\)\\); console.log\\('he.json: valid'\\)\")",
+      "Bash(node -e \"const j=JSON.parse\\(require\\('fs'\\).readFileSync\\('C:/Users/orit.braunsht/0appDEV/STORY/apps/web/i18n/messages/en.json','utf8'\\)\\); console.log\\('Keys:', Object.keys\\(j\\).join\\(', '\\)\\); console.log\\('pricing keys:', Object.keys\\(j.pricing\\).join\\(', '\\)\\)\")",
+      "Bash(node -e ':*)",
+      "Bash(ls apps/web/hooks/useFace*)",
+      "Bash(ls apps/web/hooks/useBook* apps/web/hooks/useAuto*)",
+      "Bash(ls apps/web/hooks/useNight* apps/web/hooks/useReading* apps/web/hooks/useWebGPU* apps/web/hooks/useParticle*)",
+      "Bash(ls apps/api/app/ai/agents/*.py)",
+      "Bash(ls apps/api/app/rhyme/*.py)",
+      "Bash(ls apps/api/app/ai/orchestrator/*.py)",
+      "Bash(ls apps/api/app/quality/*.py)",
+      "Bash(ls apps/api/app/workflows/*.py)"
     ]
   }
 }
