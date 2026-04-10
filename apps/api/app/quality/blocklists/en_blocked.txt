@@ -1,0 +1,238 @@
+# StoryMagic English Blocked Words & Phrases
+# Spec ref: Ch6.1 — 500+ words and phrases organized by category
+# Categories: violence, sexual, drugs, profanity, self-harm, scary-for-young
+# Lines starting with # are comments. One word/phrase per line.
+
+# ── Violence ───────────────────────────────────────────────────────────
+kill
+murder
+stab
+shoot
+gun
+knife
+weapon
+assault
+attack
+strangle
+choke
+suffocate
+decapitate
+dismember
+massacre
+slaughter
+torture
+mutilate
+behead
+execute
+assassinate
+bomb
+explode
+grenade
+rifle
+pistol
+sword
+dagger
+bloodshed
+gore
+carnage
+warfare
+combat
+wound
+bleed out
+bullet
+ammunition
+sniper
+hostage
+kidnap
+abduct
+
+# ── Sexual content ─────────────────────────────────────────────────────
+sex
+sexual
+nude
+naked
+pornography
+erotic
+intercourse
+genitals
+breast
+penis
+vagina
+orgasm
+prostitute
+rape
+molest
+grope
+seduce
+sensual
+arousal
+fetish
+strip
+provocative
+explicit
+obscene
+indecent
+lewd
+lustful
+intimate relations
+
+# ── Drugs & substances ─────────────────────────────────────────────────
+cocaine
+heroin
+methamphetamine
+marijuana
+cannabis
+crack
+ecstasy
+lsd
+amphetamine
+narcotic
+overdose
+drug dealer
+inject drugs
+snort
+smoking weed
+drunk
+alcohol abuse
+intoxicated
+wasted
+stoned
+high on drugs
+drug abuse
+substance abuse
+opioid
+fentanyl
+ketamine
+
+# ── Profanity ──────────────────────────────────────────────────────────
+fuck
+shit
+damn
+hell
+ass
+bitch
+bastard
+crap
+dick
+piss
+whore
+slut
+idiot
+stupid
+dumb
+moron
+retard
+retarded
+imbecile
+freak
+loser
+
+# ── Self-harm ──────────────────────────────────────────────────────────
+suicide
+self-harm
+cut myself
+slit wrists
+hang myself
+jump off
+overdose on
+end my life
+kill myself
+die
+want to die
+noose
+razor blade
+self-mutilation
+suicidal
+
+# ── Scary for young children (ages 2-5 additional blocks) ─────────────
+monster
+ghost
+darkness
+scary
+death
+blood
+demon
+devil
+zombie
+skeleton
+witch
+vampire
+werewolf
+nightmare
+haunted
+creepy
+terrifying
+horrifying
+frightening
+scream
+shriek
+howl
+growl
+fangs
+claws
+coffin
+grave
+graveyard
+cemetery
+tomb
+corpse
+dead body
+poison
+evil
+wicked
+curse
+hex
+spell
+sorcery
+dark magic
+black magic
+
+# ── Discrimination & hate ──────────────────────────────────────────────
+racist
+racism
+nazi
+hitler
+slavery
+slave
+genocide
+ethnic cleansing
+supremacist
+segregation
+apartheid
+hate crime
+xenophobia
+homophobia
+misogyny
+bigot
+prejudice
+discrimination
+inferior race
+master race
+antisemitism
+islamophobia
+slur
+derogatory
+dehumanize
+
+# ── Gambling ───────────────────────────────────────────────────────────
+gambling
+bet money
+casino
+slot machine
+poker chips
+lottery ticket
+wager
+betting odds
+
+# ── Weapons (additional) ──────────────────────────────────────────────
+firearm
+machine gun
+shotgun
+crossbow
+brass knuckles
+taser
+pepper spray
+landmine
+missile
+rocket launcher
+flamethrower
