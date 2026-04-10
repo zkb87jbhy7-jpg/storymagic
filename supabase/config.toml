@@ -1,0 +1,9 @@
+[project]
+id = "storymagic"
+
+[db]
+port = 5432
+major_version = 16
+
+[db.pooler]
+enabled = false

@@ -1,0 +1,24 @@
+{
+  "name": "mobile",
+  "version": "0.1.0",
+  "private": true,
+  "main": "App.tsx",
+  "scripts": {
+    "dev": "expo start",
+    "build": "echo 'Mobile build not configured yet'",
+    "lint": "echo 'Mobile lint not configured yet'",
+    "type-check": "tsc --noEmit",
+    "test": "echo 'No tests yet'"
+  },
+  "dependencies": {
+    "expo": "~52.0.0",
+    "react": "^19.1.0",
+    "react-native": "~0.78.0",
+    "shared-types": "workspace:*",
+    "shared-utils": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.0",
+    "@types/react": "^19.1.0"
+  }
+}

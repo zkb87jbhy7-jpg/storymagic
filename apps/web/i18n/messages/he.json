@@ -1,0 +1,172 @@
+{
+  "common": {
+    "appName": "StoryMagic",
+    "loading": "טוען...",
+    "save": "שמור",
+    "cancel": "ביטול",
+    "delete": "מחק",
+    "edit": "עריכה",
+    "create": "צור",
+    "back": "חזרה",
+    "next": "הבא",
+    "previous": "הקודם",
+    "confirm": "אישור",
+    "close": "סגור",
+    "search": "חיפוש",
+    "filter": "סינון",
+    "sort": "מיון",
+    "submit": "שלח",
+    "retry": "נסה שוב",
+    "continue": "המשך",
+    "skip": "דלג"
+  },
+  "nav": {
+    "dashboard": "לוח בקרה",
+    "children": "ילדים",
+    "createBook": "צור ספר",
+    "library": "ספרייה",
+    "dreams": "יומן חלומות",
+    "marketplace": "שוק",
+    "classroom": "כיתה",
+    "orders": "הזמנות",
+    "settings": "הגדרות",
+    "notifications": "התראות"
+  },
+  "auth": {
+    "login": "התחברות",
+    "register": "הרשמה",
+    "logout": "התנתקות",
+    "email": "דוא\"ל",
+    "password": "סיסמה",
+    "forgotPassword": "שכחת סיסמה?",
+    "resetPassword": "איפוס סיסמה",
+    "orContinueWith": "או המשך עם",
+    "google": "Google",
+    "agreeToTerms": "אני מסכים/ה לתנאי השימוש",
+    "parentalConsent": "הסכמת הורים",
+    "biometricDisclosure": "גילוי מידע ביומטרי"
+  },
+  "onboarding": {
+    "title": "ברוכים הבאים ל-StoryMagic!",
+    "subtitle": "בחרו את דרך היצירה שלכם",
+    "quick": "מהיר",
+    "quickDesc": "3 שאלות פשוטות וספר מוכן",
+    "creative": "יצירתי",
+    "creativeDesc": "גישה מלאה לכל הכלים",
+    "guided": "מודרך",
+    "guidedDesc": "אשף צעד אחר צעד עם הסברים"
+  },
+  "dashboard": {
+    "welcome": "שלום, {name}!",
+    "quickActions": "פעולות מהירות",
+    "recentBooks": "ספרים אחרונים",
+    "createFirstBook": "צור את הספר הראשון שלך",
+    "noBooks": "עדיין אין ספרים. בואו ניצור קסם!"
+  },
+  "children": {
+    "addChild": "הוספת ילד/ה",
+    "editProfile": "עריכת פרופיל",
+    "name": "שם",
+    "gender": "מגדר",
+    "boy": "בן",
+    "girl": "בת",
+    "preferNotToSay": "מעדיפ/ה לא לציין",
+    "birthDate": "תאריך לידה",
+    "uploadPhotos": "העלאת תמונות",
+    "photoHint": "1-5 תמונות. יותר תמונות = דמיון טוב יותר",
+    "faceDetected": "זוהה פנים!",
+    "noFaceDetected": "לא זוהו פנים. נסו תמונה אחרת",
+    "faceTooSmall": "הפנים קטנות מדי. קרבו את המצלמה",
+    "poorLighting": "תאורה חלשה. נסו מקום מואר יותר",
+    "goodPhoto": "תמונה מעולה!",
+    "avatarBuilder": "בניית אווטאר",
+    "physicalTraits": "מאפיינים פיזיים",
+    "culturalPrefs": "העדפות תרבותיות"
+  },
+  "bookCreation": {
+    "title": "צור ספר חדש",
+    "quickCreate": "יצירה מהירה",
+    "selectChild": "בחרו ילד/ה",
+    "writePrompt": "על מה הסיפור?",
+    "promptPlaceholder": "ספר על מיקה שטסה לירח עם חתול קסום ולמדה על אומץ...",
+    "chooseStyle": "בחרו סגנון איור",
+    "chooseMood": "בחרו מצב רוח",
+    "options": "אפשרויות",
+    "preview": "תצוגה מקדימה",
+    "rhyming": "חריזה",
+    "pageCount": "מספר עמודים",
+    "language": "שפה",
+    "generating": "יוצרים את הספר שלכם...",
+    "promptBuilder": {
+      "title": "בונה הסיפור",
+      "theme": "מה הנושא?",
+      "location": "איפה זה קורה?",
+      "companion": "מי עוד שם?",
+      "lesson": "מה הילד/ה לומד/ת?"
+    },
+    "styles": {
+      "watercolor": "צבעי מים",
+      "comic_book": "קומיקס",
+      "pixar_3d": "תלת-ממד פיקסאר",
+      "retro_vintage": "רטרו וינטג'",
+      "minimalist": "מינימליסטי",
+      "oil_painting": "ציור שמן",
+      "fantasy": "פנטזיה",
+      "manga": "מנגה",
+      "classic_storybook": "ספר ילדים קלאסי",
+      "whimsical": "שובב"
+    },
+    "moods": {
+      "happy": "שמח",
+      "exciting": "מרגש",
+      "sad": "עצוב",
+      "scared": "מפחיד",
+      "angry": "כועס",
+      "calm": "רגוע"
+    }
+  },
+  "magicMoment": {
+    "phase1": "כותבים את הסיפור...",
+    "phase2": "מעניקים חיים לדמויות...",
+    "phase3": "מציירים את הסיפור...",
+    "phase4": "נגיעות אחרונות...",
+    "phase5": "הספר שלכם מוכן!",
+    "earlyPeek": "הצצה ראשונה!",
+    "openBook": "פתח את הספר",
+    "notifyMe": "שלחו לי התראה כשמוכן",
+    "booksCreating": "{count} ספרים נוצרים עכשיו ב-StoryMagic!"
+  },
+  "reader": {
+    "iRead": "אני קורא/ת",
+    "readToMe": "קראו לי",
+    "parentVoice": "קול אמא/אבא",
+    "nightMode": "מצב לילה",
+    "settings": "הגדרות קריאה",
+    "celebration": "כל הכבוד! סיימת את הספר!",
+    "quiz": "שאלה על הסיפור",
+    "downloadOffline": "הורד לקריאה אופליין"
+  },
+  "pricing": {
+    "title": "תוכניות מחירים",
+    "free": "חינם",
+    "payPerBook": "תשלום לספר",
+    "monthly": "חודשי",
+    "yearly": "שנתי",
+    "digital": "ספר דיגיטלי",
+    "softcover": "כריכה רכה",
+    "hardcover": "כריכה קשה",
+    "giftPackage": "חבילת מתנה"
+  },
+  "errors": {
+    "network": "נראה שאיבדתם את חיבור האינטרנט. שמרנו את ההתקדמות שלכם!",
+    "aiGeneration": "הקוסם שלנו צריך עוד רגע. הסיפור שלכם שמור בבטחה!",
+    "payment": "אירעה שגיאה בתשלום. נסו שוב.",
+    "rateLimit": "אתם יוצרים ספרים מהר מדי! חכו {seconds} שניות."
+  },
+  "footer": {
+    "about": "אודות",
+    "privacy": "מדיניות פרטיות",
+    "terms": "תנאי שימוש",
+    "contact": "צור קשר"
+  }
+}

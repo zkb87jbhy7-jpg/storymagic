@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "StoryMagic",
+    "slug": "storymagic",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "storymagic",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.storymagic.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#4F46E5"
+      },
+      "package": "com.storymagic.app"
+    }
+  }
+}

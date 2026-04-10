@@ -1,0 +1,172 @@
+{
+  "common": {
+    "appName": "StoryMagic",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "confirm": "Confirm",
+    "close": "Close",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "submit": "Submit",
+    "retry": "Try Again",
+    "continue": "Continue",
+    "skip": "Skip"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "children": "Children",
+    "createBook": "Create Book",
+    "library": "Library",
+    "dreams": "Dream Journal",
+    "marketplace": "Marketplace",
+    "classroom": "Classroom",
+    "orders": "Orders",
+    "settings": "Settings",
+    "notifications": "Notifications"
+  },
+  "auth": {
+    "login": "Sign In",
+    "register": "Sign Up",
+    "logout": "Sign Out",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot Password?",
+    "resetPassword": "Reset Password",
+    "orContinueWith": "Or continue with",
+    "google": "Google",
+    "agreeToTerms": "I agree to the Terms of Service",
+    "parentalConsent": "Parental Consent",
+    "biometricDisclosure": "Biometric Data Disclosure"
+  },
+  "onboarding": {
+    "title": "Welcome to StoryMagic!",
+    "subtitle": "Choose your creation path",
+    "quick": "Quick",
+    "quickDesc": "3 simple questions and your book is ready",
+    "creative": "Creative",
+    "creativeDesc": "Full access to all tools",
+    "guided": "Guided",
+    "guidedDesc": "Step-by-step wizard with explanations"
+  },
+  "dashboard": {
+    "welcome": "Hello, {name}!",
+    "quickActions": "Quick Actions",
+    "recentBooks": "Recent Books",
+    "createFirstBook": "Create Your First Book",
+    "noBooks": "No books yet. Let's create some magic!"
+  },
+  "children": {
+    "addChild": "Add Child",
+    "editProfile": "Edit Profile",
+    "name": "Name",
+    "gender": "Gender",
+    "boy": "Boy",
+    "girl": "Girl",
+    "preferNotToSay": "Prefer not to say",
+    "birthDate": "Birth Date",
+    "uploadPhotos": "Upload Photos",
+    "photoHint": "1-5 photos. More photos = better likeness",
+    "faceDetected": "Face detected!",
+    "noFaceDetected": "No face detected. Try a different photo",
+    "faceTooSmall": "Face is too small. Move closer",
+    "poorLighting": "Poor lighting. Try a brighter area",
+    "goodPhoto": "Great photo!",
+    "avatarBuilder": "Avatar Builder",
+    "physicalTraits": "Physical Traits",
+    "culturalPrefs": "Cultural Preferences"
+  },
+  "bookCreation": {
+    "title": "Create a New Book",
+    "quickCreate": "Quick Create",
+    "selectChild": "Select Child",
+    "writePrompt": "What's the story about?",
+    "promptPlaceholder": "A book about Mika who flew to the moon with a magical cat and learned about courage...",
+    "chooseStyle": "Choose Illustration Style",
+    "chooseMood": "Choose Mood",
+    "options": "Options",
+    "preview": "Preview",
+    "rhyming": "Rhyming",
+    "pageCount": "Page Count",
+    "language": "Language",
+    "generating": "Creating your book...",
+    "promptBuilder": {
+      "title": "Story Builder",
+      "theme": "What's the theme?",
+      "location": "Where does it happen?",
+      "companion": "Who else is there?",
+      "lesson": "What does the child learn?"
+    },
+    "styles": {
+      "watercolor": "Watercolor",
+      "comic_book": "Comic Book",
+      "pixar_3d": "3D Pixar-style",
+      "retro_vintage": "Retro Vintage",
+      "minimalist": "Minimalist",
+      "oil_painting": "Oil Painting",
+      "fantasy": "Fantasy",
+      "manga": "Manga",
+      "classic_storybook": "Classic Storybook",
+      "whimsical": "Whimsical"
+    },
+    "moods": {
+      "happy": "Happy",
+      "exciting": "Exciting",
+      "sad": "Sad",
+      "scared": "Scared",
+      "angry": "Angry",
+      "calm": "Calm"
+    }
+  },
+  "magicMoment": {
+    "phase1": "Crafting the story...",
+    "phase2": "Bringing characters to life...",
+    "phase3": "Painting the story...",
+    "phase4": "Final touches...",
+    "phase5": "Your book is ready!",
+    "earlyPeek": "Early Peek!",
+    "openBook": "Open Your Book",
+    "notifyMe": "Notify Me When Ready",
+    "booksCreating": "{count} books are being created right now on StoryMagic!"
+  },
+  "reader": {
+    "iRead": "I Read",
+    "readToMe": "Read to Me",
+    "parentVoice": "Parent's Voice",
+    "nightMode": "Night Mode",
+    "settings": "Reading Settings",
+    "celebration": "Amazing! You finished the book!",
+    "quiz": "Story Quiz",
+    "downloadOffline": "Download for Offline Reading"
+  },
+  "pricing": {
+    "title": "Pricing Plans",
+    "free": "Free",
+    "payPerBook": "Pay Per Book",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "digital": "Digital Book",
+    "softcover": "Softcover",
+    "hardcover": "Hardcover",
+    "giftPackage": "Gift Package"
+  },
+  "errors": {
+    "network": "It looks like you lost your internet connection. We saved your progress!",
+    "aiGeneration": "Our wizard needs another moment to recharge. Your story is saved safely!",
+    "payment": "There was a payment error. Please try again.",
+    "rateLimit": "You're creating books faster than we can draw! Please wait {seconds} seconds."
+  },
+  "footer": {
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact Us"
+  }
+}
