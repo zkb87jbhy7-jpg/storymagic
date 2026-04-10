@@ -1,0 +1,58 @@
+/* ==========================================================================
+   Font Declarations — StoryMagic
+   All fonts loaded from /fonts/ with font-display: swap for performance.
+   ========================================================================== */
+
+/* --- Noto Sans Hebrew --- */
+
+@font-face {
+  font-family: 'Noto Sans Hebrew';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/NotoSansHebrew-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Noto Sans Hebrew';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/NotoSansHebrew-Bold.woff2') format('woff2');
+}
+
+/* --- Noto Sans --- */
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/NotoSans-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/NotoSans-Bold.woff2') format('woff2');
+}
+
+/* --- OpenDyslexic --- */
+
+@font-face {
+  font-family: 'OpenDyslexic';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/OpenDyslexic-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'OpenDyslexic';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/OpenDyslexic-Bold.woff2') format('woff2');
+}

@@ -1,0 +1,139 @@
+/* ==========================================================================
+   Print Styles — StoryMagic
+   Optimized for printing storybooks. Hides UI chrome, controls page breaks,
+   and uses CMYK-friendly colors for professional print output.
+   ========================================================================== */
+
+@media print {
+  /* --- Hide non-content UI elements --- */
+
+  header,
+  nav,
+  aside,
+  footer,
+  [data-print="hide"],
+  .no-print {
+    display: none !important;
+  }
+
+  /* --- Full-width content area --- */
+
+  body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    color: black;
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+
+  main,
+  [role="main"] {
+    inline-size: 100%;
+    max-inline-size: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* --- Page setup --- */
+
+  @page {
+    size: A4;
+    margin: 15mm;
+  }
+
+  @page :first {
+    margin-block-start: 25mm;
+  }
+
+  /* --- Page break controls for book pages --- */
+
+  .book-page,
+  [data-book-page] {
+    page-break-after: always;
+    break-after: page;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .book-page:last-child,
+  [data-book-page]:last-child {
+    page-break-after: auto;
+    break-after: auto;
+  }
+
+  /* Keep illustrations with their text */
+  .book-illustration,
+  [data-book-illustration] {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Avoid orphans and widows in story text */
+  .book-text p,
+  [data-book-text] p {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* Chapter titles start on a new page */
+  .book-chapter,
+  [data-book-chapter] {
+    page-break-before: always;
+    break-before: page;
+  }
+
+  /* --- CMYK-friendly colors --- */
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #1a1a1a;
+  }
+
+  p, li, span, td, th {
+    color: #000000;
+  }
+
+  a {
+    color: #000000;
+    text-decoration: underline;
+  }
+
+  /* --- Images --- */
+
+  img {
+    max-inline-size: 100%;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* --- Remove backgrounds and shadows for clean print --- */
+
+  *,
+  *::before,
+  *::after {
+    background: transparent !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* Allow explicit print backgrounds (book illustrations) */
+  .print-bg,
+  [data-print-bg] {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    background: initial !important;
+  }
+
+  /* --- Tables --- */
+
+  table {
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 1px solid #cccccc;
+    padding: 6pt 8pt;
+  }
+}
