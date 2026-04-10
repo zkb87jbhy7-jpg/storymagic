@@ -6,15 +6,34 @@
     "orientation": "portrait",
     "scheme": "storymagic",
     "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-notifications"
+    ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.storymagic.app"
+      "bundleIdentifier": "com.storymagic.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "StoryMagic needs camera access to take photos for your child's profile.",
+        "NSPhotoLibraryUsageDescription": "StoryMagic needs photo library access to select photos for your child's profile."
+      }
     },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#4F46E5"
       },
-      "package": "com.storymagic.app"
+      "package": "com.storymagic.app",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "NOTIFICATIONS"
+      ],
+      "googleServicesFile": "./google-services.json"
+    },
+    "extra": {
+      "eas": {
+        "projectId": ""
+      }
     }
   }
 }
